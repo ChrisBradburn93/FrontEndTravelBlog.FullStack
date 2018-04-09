@@ -1,0 +1,35 @@
+<canvas id="ctx" width ="500" style="border:5px solid #000000";> </canvas>
+
+<script>
+var ctx = document.getElementById("ctx").getContext("2d");
+ctx.font = '30px Arial';
+
+ var x = 50;
+ var spdX = 60;
+ var y = 40;
+ var spdY = 5;
+ctx.fillText('P',x,y);
+
+x += spdX;
+y+= spdY;
+
+ctx.fillText('U',x,y);
+
+x += spdX; //150
+y+= spdY;
+ctx.fillText('B',x,y);
+
+x += spdX; 
+y+= spdY;
+ctx.fillText('N',x,y);
+
+x += spdX; 
+y+= spdY;
+ctx.fillText('O',x,y);
+
+x += spdX; 
+y+= spdY;
+ctx.fillText('W',x,y);
+
+
+</script>
