@@ -1,0 +1,12 @@
+			.border {
+				border: 1px solid black;
+				}
+				#id {
+					padding:40px;
+					text-align:center;
+				}
+			#id1 {
+ border-bottom: 3px dashed black;
+ }
+
+
