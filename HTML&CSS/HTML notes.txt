@@ -319,6 +319,22 @@ i.e adding more text to one cell will squish others sometimes
 
 
 
+---
+
+Metadata
+
+Helps scrapers etc find out what website is about. Might not be in plain view but computers read it
+Metdata is a self closing tag <metadata/> but it's the attributes that are what is important ie:
+<metadata charset="UTF-8">
+<meta name="keywords" content="travel,blog,travel blog, chris, rebecca, new york, san francisco, los angeles, honolulu">
+<meta name="description" content="A travel blog that sums up mine and Rebecca's trip to America, as well as other places we've been">
+<meta name="subject" content="Travel Blog">
+<meta name="copyright" content="Northern Digital Contracting">
+<meta name="language" content="EN">
+<meta name="robots" content="index, follow">
+<meta name="revised" content="Thursday, April 12th, 8:41am">
+<meta name="classification" content="Business">
+
 
 
 
