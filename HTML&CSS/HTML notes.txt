@@ -335,7 +335,43 @@ Metdata is a self closing tag <metadata/> but it's the attributes that are what 
 <meta name="revised" content="Thursday, April 12th, 8:41am">
 <meta name="classification" content="Business">
 
+---
 
+Entities
+
+HTML has some reserver characters. ie if I try to write <name> it wont show up in browser but will in code
+Can show special characters by startig with an ampersand i.eGHRwF1
+&lt; - less than <br/>
+&gt; - greater than <br/>
+
+&lt;name&gt; shows as <name> 
+
+entities are ways to create symbols the & to display in html is &amp;
+copyright symbol is &copy;
+extra space &nbsp - nonbreaking space
+
+Just google a list of html entities
+
+----
+
+forms - VERY IMPORTANT
+
+are how we submit data to a server or another server
+
+<form> inside the body
+<form>
+	<input/>
+	<text area> </textarea>
+	<button></button>
+	<select></select>
+	
+</form>
+
+Form has a few attributes such as <form method="" either get or post
+Get shows up on URL bar and not a good idea for secure stuff
+post goes silently in the background
+
+Have the action attribute so <form action="login.php" action is the file you want it linking to
 
 
 
