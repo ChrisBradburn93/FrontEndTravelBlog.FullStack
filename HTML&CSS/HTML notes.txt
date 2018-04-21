@@ -373,6 +373,101 @@ post goes silently in the background
 
 Have the action attribute so <form action="login.php" action is the file you want it linking to
 
+Example for input area with text. Can also have colour, button, checkbox etc
+
+<form>
+
+
+	Enter Name:
+	
+	<h2>NAme</h2>
+		Text<input type="text"/>
+		Check<input type="checkbox"/>
+		Color<input type="color"/>
+		Date<input type="date"/>
+		Email<input type="email" autofocus="autofocus"/>
+		File<input type="file"/>
+		Hidden<input type="hidden"/>
+		Number<input type="number"/>
+		Password<input type="password"/>
+		Radio<input type="radio"/>
+		URL<input type="url"/>
+		
+		<h2>Attributes</h2>
+		autofocus="" - when refreshed goes straight to field
+		disabled="" - duh
+		checked="" - checked boxes
+		min="" max="" - numbers
+		value="prefilled text" - duh
+		readonly="" - duh
+		placeholder="Password Here" - greyed out
+		maxlength="" - for text
+		autocomplete="on" or "off" - not equal to itself like the others
+		name="" - what shows up in the url query string
+		
+	Forms etc can all have global attributes like title, class and IDs
+</form>
+
+
+INPUT
+
+
+<input>
+
+USer input works as exactly that. syntax is 
+
+<input type="text" placeholder="First Name" size="50"/> see the forms above
+
+TEXT AREA
+
+LArge portions of text. Goes inside the form area, is not self closing. 
+<form>
+<textarea>This is expandable and space sensitive.</textarea>
+</form>
+
+Can add columns to it. They are based on the character inside it. Columns are an attribute though.
+
+so
+<textarea cols="150" rows="10">
+1
+2
+				3 tabulation
+4
+</textarea>
+
+Can accept all global atributes as with above
+
+BUTTONS
+-----
+
+Lots of uses inside forms etc. Styled in different ways. Diff types of them though.
+
+<button type="submit">submit</button>- submits info
+<button type="reset">submit</button> - resets to default vals
+<button type="button">Does nothing</button>
+
+Can have buttons that do nothing that can be used in CSS, Jvascript or jquery
+
+
+DROPDOWN MENU
+-----
+
+Created useing the <select>
+<form>
+<select name="select">
+	<option value="1">value1</option>
+	<option value="2">value2</option>
+	<option value="3">value3</option>
+	<option value="test">Test</option
+
+</select>
+<button type="submit">submit</button>
+</form>
+
+
+selected="selected" makes an option selected by default
+
+
 
 
 
