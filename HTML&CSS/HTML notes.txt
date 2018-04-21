@@ -469,6 +469,34 @@ selected="selected" makes an option selected by default
 
 
 
+GET method----
+
+2 main methods, get vs post
+it is a method attribute. Get puts the information in the URL bar
+
+When you submit a form with the get method it shows up in the url
+
+This can be useful when using server type stuff such as PHP or ASP 
+
+COuld post it to the server and create a variable based on what the servers sees on the URL bar
+
+POST method -----
+Sends the same information to the server but doesn't put it in the URL like GET does
+
+If the action method remain POST but doesnt have a file to send to it gives the confirm form resubmission error 
+
+HTML 5 SEMANTICS---
+
+until recent years mainly used <div></div> then reset it and styled to whatever you wanted
+
+HTML5 is to construct a webpage and set out the structure so that the browser knows what it is looking at
+
+We now have stuff like <article> <nav> . This is important for developers because it allows other programs, browsers, extensions, plugins bots etc to know what it is looking at.
+
+Better for SEO etc.
+
+If we don't have to use <div> then don't. Just google different html5 elements.
+
 
 
 
